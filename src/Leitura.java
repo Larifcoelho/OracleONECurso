@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Leitura {
+    public static void main (String [] args){
+
+        Scanner scan = new Scanner (System.in);
+
+        System.out.println("Digite seu filme favorito: ");
+        String filme = scan.nextLine();
+
+        System.out.println("Qual o ano do lançamento? ");
+        int anoDeLancamento = scan.nextInt();
+        System.out.println("Diga sua avaliação do filme:  ");
+        double avaliacao = scan.nextDouble();
+
+        System.out.println(filme);
+        System.out.println(anoDeLancamento);
+        System.out.println(avaliacao);
+
+    }
+}
