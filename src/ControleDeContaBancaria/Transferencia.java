@@ -1,6 +1,6 @@
 package ControleDeContaBancaria;
 
-public class Transferir {
+public class Transferencia {
     public static void main (String [] args){
 
 
