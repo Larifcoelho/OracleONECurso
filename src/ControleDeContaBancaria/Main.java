@@ -16,5 +16,9 @@ public class Main {
 
         sq.sacar(minhaConta, 150);
         vs.mostrarSaldo(minhaConta);
+
+        ConsultaTitular ct = new ConsultaTitular();
+        ct.mostrarTitular(minhaConta);
+
     }
 }
