@@ -20,6 +20,6 @@ public class MediaNotas {
 
         System.out.println("A média calculada é de: " + media);
 
-    scan.close();
-}
+        scan.close();
+    }
 }

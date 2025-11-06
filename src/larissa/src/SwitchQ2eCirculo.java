@@ -8,9 +8,9 @@ public class SwitchQ2eCirculo {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Escolha uma das opções abaixo:");
-            System.out.println("1. Calcular área do quadrado.");
-                System.out.println("2. Calcular área do círculo.");
-                    System.out.println("3. Para sair.");
+        System.out.println("1. Calcular área do quadrado.");
+        System.out.println("2. Calcular área do círculo.");
+        System.out.println("3. Para sair.");
         int resposta = scan.nextInt();
 
         switch (resposta){
@@ -22,7 +22,7 @@ public class SwitchQ2eCirculo {
                 break;
 
             case 2:
-               System.out.println( "Digite o raio do círculo: ");
+                System.out.println( "Digite o raio do círculo: ");
                 double raio = scan.nextDouble();
                 double area = Math.PI * Math.pow (raio, 2);
                 System.out.println("A área do círculo é de: " + area);
@@ -38,7 +38,7 @@ public class SwitchQ2eCirculo {
         }
 
         scan.close();
-        }
-
     }
+
+}
 
